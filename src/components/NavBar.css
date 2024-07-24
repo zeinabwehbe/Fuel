@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+
+.nav{
+display: flex;
+justify-content: space-around;
+padding: 16px;
+
+}
+
+.NavLogo{
+/* Logo */
+position: absolute;
+height: 67px;
+left: 72px;
+top: 40px;
+}
+.NavMenu{
+/* home */
+list-style-type: none; /* Removes bullet points */
+padding: 0; /* Removes padding */
+margin: 0; /* Removes margin */
+position: absolute;
+right: 200px;
+top: 71px;
+font-family: 'tajawal', sans-serif;
+font-style: normal;
+font-weight: 650;
+font-size: 27px;
+text-transform: uppercase;
+color: #FFFFFF;
+
+
+}
+.NavMenu li {
+  display: inline; /* Displays list items inline */
+  margin-right: 20px; /* Adds space between list items */
+}
+button{
+  font-family: 'Tajawal';
+font-style: normal;
+font-weight: 650;
+font-size: 27px;
+padding-bottom: 100px;
+text-transform: uppercase;
+color: #FFFFFF;
+  background: none; /* Removes the default background */
+  border: none; /* Removes the border */
+  margin-left: 15px; 
+  cursor: pointer; /* Changes the cursor to a pointer on hover */
+} 
+.navcart{
+/* cart */
+display: inline;
+position: absolute;
+height: 38px;
+right:20px;
+top: 71px;
+font-family: 'tajawal';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}

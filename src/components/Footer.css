@@ -1,0 +1,25 @@
+.Footer{
+    display: flex;
+justify-content: space-around;
+padding: 16px;
+}
+.FooterMenu{
+    /* home */
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes padding */
+    margin: 0; /* Removes margin */
+
+    bottom: 71px;
+    font-family: 'tajawal', sans-serif;
+    font-style: normal;
+    font-weight: 650;
+    font-size: 27px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+    
+    }
+    .FooterMenu li {
+      display: inline; /* Displays list items inline */
+      margin-right: 20px; /* Adds space between list items */
+    }
