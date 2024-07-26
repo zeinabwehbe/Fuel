@@ -1,0 +1,18 @@
+.hero-left h2{
+    font-size: 40px;
+    font-weight: 20px;
+    margin-left: 50px;
+    color: white;
+}
+
+.desc{
+    /* "We are here to energize you, as we believe in the power of a great cup of coffee to fuel your day and boost your productivity. Our cozy and inviting space is designed for coffee lovers, busy professionals, and anyone looking for a comfortable spot to relax or work. */
+
+position: absolute;
+width: 540px;
+left: 50px;
+top: 250px;
+color: white;
+
+
+}

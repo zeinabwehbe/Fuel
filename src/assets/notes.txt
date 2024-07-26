@@ -1,0 +1,29 @@
+inside the assets, you will be adding a file that contain json file and in it each item associated with an image
+json is a file with JS extensions
+
+any images are imported in our used one
+
+in css:
+use px
+use flex, not right left up down
+example for flex:
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+        }
+        .item {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        in App.js you put the routes and then link them to the navbar
+        each page will have a route
+        this routing will detect the URL
+
+
+        abbreviationn to a div with a class => div.classname
