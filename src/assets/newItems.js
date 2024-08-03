@@ -4,7 +4,7 @@ import p2_img from './product2.png'
 let data = [
     {
         id:1,
-        name:"White Mocha",
+        name:"Americano",
         // category:"drink",
         image: p1_img,
         new_price: "5$",
@@ -12,7 +12,7 @@ let data = [
     },
     {
         id:2,
-        name:"Latte",
+        name:"Espresso",
         // category:"drink",
         image: p2_img,
         new_price: "4$",

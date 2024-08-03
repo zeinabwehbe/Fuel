@@ -1,0 +1,46 @@
+.Subscribe{
+width: 55%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: auto;
+padding: 0px 140px;
+gap:30px;
+margin-bottom: 40vh;
+/* glass try */
+background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+backdrop-filter: blur(10px); /* Frosted glass effect */
+-webkit-backdrop-filter: blur(10px); /* For Safari */
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+padding: 20px;
+max-width: 700px;
+text-align: center;
+color: #fff;
+border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: border for more effect */
+}
+.Subscribe h1{
+    color: rgb(1, 46, 1);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.Subscribe p{
+    color: rgb(1, 46, 1);
+    font-size: 20px;
+}
+
+input
+    {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px #ccc;
+    border-radius: 5px;
+    width: 50%;
+    outline: none; /* Remove the default focus outline */
+    box-shadow: 0 0 5px rgba(102, 175, 233, 0.5); /* Add a subtle shadow on focus */
+}
+.ex{
+    margin-bottom: 20px;
+}

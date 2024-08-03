@@ -1,27 +1,26 @@
-.popular{
+.new-items{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
     margin-bottom: 40vh;
-
 }
 h1{
     color: white;
 }
-.popular-item h1{
+.items h1{
     color: white;
     font-size: 50px;
     font-weight: 600;
 
 }
-.popular hr{
+.new-items hr{
     width: 200px;
     height: 6px;
     border-radius: 10px;
     background: white;
 }
-.popular-item{
+.items{
     margin-top: 50px;
     display: flex;
     gap: 30px;

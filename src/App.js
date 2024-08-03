@@ -3,6 +3,8 @@ import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 import {BrowserRouter,Routes, Route} from 'react-router-dom'
 import Welcome from './pages/Welcome';
+import ShopCategory from './pages/ShopCategory'
+
 function App() {
   return (
     <div className='background'>
@@ -12,11 +14,10 @@ function App() {
         <Routes>
           {/* setting the route so that you will be directioned to the suitable one */}
           <Route path='/' element={<Welcome/>}/>
-          <Route path='/drink' element={<menucategory category="drink"/>}/>
-          <Route path='/dessert' element={<menucategory category="dessert"/>}/>
+          <Route path='/drink' element={<ShopCategory category="drink"/>}/>
+          <Route path='/dessert' element={<ShopCategory category="dessert"/>}/>
         </Routes>
         </BrowserRouter>
-        <div className='test'></div>
         <Footer/>        
       </div>
 

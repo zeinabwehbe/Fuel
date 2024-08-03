@@ -5,7 +5,7 @@ let data = [
     {
         id:1,
         name:"White Mocha",
-        // category:"drink",
+        category:"drink",
         image: p1_img,
         new_price: "5$",
         old_price: "8$",
@@ -13,7 +13,7 @@ let data = [
     {
         id:2,
         name:"Latte",
-        // category:"drink",
+        category:"dessert",
         image: p2_img,
         new_price: "4$",
         old_price: "6$",
