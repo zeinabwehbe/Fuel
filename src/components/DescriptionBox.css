@@ -1,0 +1,30 @@
+.descriptionbox{
+    margin: 200px 300px;
+}
+.descriptionbox-navigator{
+    display: flex;
+    flex-direction: row;
+
+}
+.descriptionbox-nav-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:20px;
+    font-weight: 700;
+    width: 171px;
+    height: 70px;
+    border:  solid white;
+    color: #bb8350;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 30px;
+}
+.descriptionbox-description{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    padding: 48px;
+    padding-bottom:70px;
+    margin: 0px;
+}

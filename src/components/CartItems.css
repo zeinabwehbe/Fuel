@@ -1,0 +1,26 @@
+.cartitems{
+    margin: 100px;
+    height: 600px;
+}
+
+.cartitems hr{
+    height: 3px;
+    background: white;
+    border:0;
+
+}
+.cartitems-format-main{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap:75px;
+    padding: 20px 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.carticon-product-icon{
+    height: 100px;
+    width: 100px;
+
+}

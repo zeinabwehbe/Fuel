@@ -11,7 +11,7 @@
     justify-content: center;
 }
 .hero-left h2{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 20px;
     color: white;
 }
@@ -19,14 +19,17 @@
     padding: 20px;
     text-align: center;
     float: right;
-    margin-left: 30px; }
+    margin-left: 30px; 
+    margin-right: 75px;
+}
 
 .desc{
     /* "We are here to energize you, as we believe in the power of a great cup of coffee to fuel your day and boost your productivity. Our cozy and inviting space is designed for coffee lovers, busy professionals, and anyone looking for a comfortable spot to relax or work. */
-
-width: 540px;
+margin-bottom: 50px;
+width: 740px;
 top: 250px;
 color: white;
+font-size: 24px;
 }
 
 .newItems{

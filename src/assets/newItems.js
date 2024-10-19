@@ -1,23 +1,25 @@
-import p1_img from './product1.png'
-import p2_img from './product2.png'
+import p1_img from './1.jpg'
+import cheeese_croissant from './cheeese croissant.jpg'
 
-let data = [
+
+let newItems = [
+    
     {
-        id:1,
-        name:"Americano",
-        // category:"drink",
+        id:0,
+        name:"Iced White Mocha",
+        category:"drink",
         image: p1_img,
-        new_price: "5$",
-        old_price: "8$",
+        new_price: "5",
+        old_price: "8",
     },
     {
-        id:2,
-        name:"Espresso",
-        // category:"drink",
-        image: p2_img,
-        new_price: "4$",
-        old_price: "6$",
+        id:1,
+        name:"cheeese croissant",
+        category:"Pastries",
+        image: cheeese_croissant,
+        new_price: "4",
+        old_price: "6",
     },
     
     ];
-    export default data;
+    export default newItems;

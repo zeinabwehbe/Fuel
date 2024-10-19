@@ -1,6 +1,7 @@
 import React from "react";
 import './Hero.css'
 import right_photo from '../assets/right_photo.png';
+import { Link } from "react-router-dom";
 function Hero(){
     return(
         <div className="hero">
@@ -13,14 +14,14 @@ function Hero(){
                             </div>                    
                         </div> 
                         <div>
-                        <button className="newItems">fill your cup</button>
+                        <Link to='/drink' style={{textDecoration:'none'}}><button className="newItems">fill your cup</button></Link>
 
                         </div>
 
                     </div>
                     <div className="hero-right">
                         <div>                            
-                        <img src={right_photo} alt="My Image" />
+                        <img src={right_photo} alt="design" />
                         </div>
                     </div>
         </div>

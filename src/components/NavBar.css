@@ -7,7 +7,15 @@
   justify-content: space-around;
   align-items: center;
 
-}
+  background: linear-gradient(0deg, rgba(94, 113, 83, 0.72), rgba(94, 113, 83, 0.72)), url('C:\Users\Zayna\OneDrive\Desktop\Fuel\fuel_coffeeshop\src\assets\background.jpg');
+  background-attachment: fixed; /* This makes the background image fixed */
+  background-attachment: fixed; /* This makes the background image fixed */
+  background-size: cover; /* This makes the image cover the whole background */
+    background-position: center; /* This centers the image */
+    background-repeat: no-repeat;
+    /* photo_6048732967469171382_y 1 */
+  }
+
 
 .NavItem{
   list-style-type: none; /* Removes bullet points */

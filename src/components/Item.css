@@ -1,11 +1,23 @@
 .item{
     width: 250px;
-}
+    margin: 30px;
+   
+    }
+    .item:hover {
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease, box-shadow 0.3s ease; 
+        overflow: hidden;
+        background: #cd8f54c5;
+     backdrop-filter: blur(20px); 
+     height: 350px;
+     border-radius: 30px;
+    }
 .item img{
     margin-left: 23px ;
     width: 200px;
     height: 200px;
     border-radius: 20%;
+    margin-top: 20px;
 }
 .item p{
     margin: 10px 30px;
@@ -35,8 +47,4 @@ gap: 20px;
     font-size: 25px;
     font-weight: 600;
     color: azure;
-}
-.item:hover{
-    transform: scale(1.05);
-    transition: 0.6sec;
 }
